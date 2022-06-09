@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "CC2640R2FRHBR")(type "Legacy")(uri "${KIPRJMOD}/lib/CC2640R2FRHBR/CC2640R2FRHBR.lib")(options "")(descr ""))
+  (lib (name "MIC5317-3.3YM5-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/MIC5317-3.3YM5-TR/MIC5317-3.3YM5-TR.kicad_sym")(options "")(descr ""))
+)
