@@ -1,4 +1,6 @@
 (sym_lib_table
   (lib (name "CC2640R2FRHBR")(type "Legacy")(uri "${KIPRJMOD}/lib/CC2640R2FRHBR/CC2640R2FRHBR.lib")(options "")(descr ""))
   (lib (name "MIC5317-3.3YM5-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/MIC5317-3.3YM5-TR/MIC5317-3.3YM5-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4130")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4130/USB4130.kicad_sym")(options "")(descr ""))
+  (lib (name "ADXL345BCCZ-RL")(type "Legacy")(uri "${KIPRJMOD}/lib/ADXL345/ADXL345BCCZ-RL.lib")(options "")(descr ""))
 )

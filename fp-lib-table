@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name "CC2640R2FRHBR")(type "KiCad")(uri "${KIPRJMOD}/lib/CC2640R2FRHBR")(options "")(descr ""))
   (lib (name "MIC5317-3")(type "KiCad")(uri "${KIPRJMOD}/lib/MIC5317-3.3YM5-TR")(options "")(descr ""))
+  (lib (name "USB4130")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4130/USB4130.pretty")(options "")(descr ""))
+  (lib (name "ADXL345")(type "KiCad")(uri "${KIPRJMOD}/lib/ADXL345")(options "")(descr ""))
 )
