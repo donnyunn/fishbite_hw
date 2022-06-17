@@ -4,4 +4,5 @@
   (lib (name "USB4130")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4130/USB4130.kicad_sym")(options "")(descr ""))
   (lib (name "ADXL345BCCZ-RL")(type "Legacy")(uri "${KIPRJMOD}/lib/ADXL345/ADXL345BCCZ-RL.lib")(options "")(descr ""))
   (lib (name "m_LED")(type "KiCad")(uri "${KIPRJMOD}/lib/RGLED/m_LED.kicad_sym")(options "")(descr ""))
+  (lib (name "esp_module")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32/esp_module.kicad_sym")(options "")(descr ""))
 )

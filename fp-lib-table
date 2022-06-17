@@ -4,4 +4,5 @@
   (lib (name "USB4130")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4130/USB4130.pretty")(options "")(descr ""))
   (lib (name "ADXL345")(type "KiCad")(uri "${KIPRJMOD}/lib/ADXL345")(options "")(descr ""))
   (lib (name "APBA3010SURKCGKC-GX")(type "KiCad")(uri "${KIPRJMOD}/lib/RGLED/APBA3010SURKCGKC-GX.pretty")(options "")(descr ""))
+  (lib (name "ESP32-C4-MINI-1")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32/ESP32-C4-MINI-1.pretty")(options "")(descr ""))
 )

@@ -4261,8 +4261,21 @@
     (pin "2" (uuid 493a75c0-160a-427d-83d5-7b2b366c8a7f))
   )
 
+  (sheet (at 125.73 46.99) (size 16.51 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9)
+    (property "Sheet name" "esp32" (id 0) (at 125.73 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "esp32.kicad_sch" (id 1) (at 125.73 60.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9" (page "2"))
   )
 
   (symbol_instances
@@ -4377,6 +4390,15 @@
     (path "/4d73052d-124a-4c3a-b6fe-52f7fcb36e32"
       (reference "#PWR038") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9/26ba45e2-e91d-4dba-bb41-b1e0c5d3e276"
+      (reference "#PWR0101") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9/bbe5c00c-19fc-4d57-bdaf-434080a9cd15"
+      (reference "#PWR0102") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9/00cbc649-24f1-4303-ba33-cd561c64548c"
+      (reference "#PWR0103") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/a4ff6661-b15b-4171-85d2-7974fa9df9ae"
       (reference "AE1") (unit 1) (value "Antenna") (footprint "RF_Antenna:Texas_SWRA117D_2.4GHz_Right")
     )
@@ -4467,6 +4489,15 @@
     (path "/a6f7a0f8-44ba-4ba9-9cf0-83e3425c49bd"
       (reference "J2") (unit 1) (value "test") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical")
     )
+    (path "/f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9/493c8b2b-f59a-4b8b-8bcf-44e4a2d8e4a2"
+      (reference "J3") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    )
+    (path "/f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9/3eae3ba7-df0f-47b3-8c65-92aa25035e52"
+      (reference "J4") (unit 1) (value "Conn_01x10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
+    )
+    (path "/f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9/ae10f519-4b80-4b5e-b6f6-f46c02d44d99"
+      (reference "J5") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    )
     (path "/306d0f60-f326-49e0-aea4-c110dff4ff31"
       (reference "L1") (unit 1) (value "bead") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder")
     )
@@ -4514,6 +4545,9 @@
     )
     (path "/c8109627-b3a5-4f10-8d68-df999e9dddb0"
       (reference "U4") (unit 1) (value "CC2640R2FRHBR") (footprint "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm")
+    )
+    (path "/f7aa75c5-0bfb-4814-b8eb-5f8a9a128aa9/21b4a2e6-0e40-4192-943e-bb939e580e2b"
+      (reference "U5") (unit 1) (value "ESP32-C3-MINI-1-N4") (footprint "ESP32-C4-MINI-1:ESP32-C4-MINI-1")
     )
     (path "/d931cd6a-223e-4c0b-bfcf-8fae9ceabb74"
       (reference "Y1") (unit 1) (value "32.768kHz") (footprint "Crystal:Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm_HandSoldering")
