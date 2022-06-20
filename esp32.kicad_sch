@@ -395,6 +395,10 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "52" (effects (font (size 1.27 1.27))))
         )
+        (pin input line (at -10.16 17.78 270) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "53" (effects (font (size 1.27 1.27))))
+        )
         (pin input line (at -17.78 -2.54 0) (length 2.54)
           (name "IO3" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
@@ -877,6 +881,7 @@
     (pin "50" (uuid 078a92c3-f2a7-43f8-a0ff-4f46315e33fa))
     (pin "51" (uuid 83505d28-20e8-41e6-9315-c348e240e9e0))
     (pin "52" (uuid fdcc0f40-cc57-4310-99a5-3e1a39e929a5))
+    (pin "53" (uuid 0876a74b-b155-4af1-950a-01a28b243da3))
     (pin "6" (uuid e6bd484e-df7e-4712-9c1c-dc638406a60c))
     (pin "7" (uuid 3926eab4-d205-4726-bfef-18444d1d22f9))
     (pin "8" (uuid b35615f9-68c9-440b-ab3a-4b7732d00a27))
